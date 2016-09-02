@@ -23,7 +23,12 @@
     <link id="switcher" href="assets/css/theme-color/default-theme.css" rel="stylesheet">
     <!-- Time Line -->
     <link rel="stylesheet" href="assets/css/timelinenormalize.css">
-    <link rel="stylesheet" href="assets/css/timelinestyle.css">     
+    <link rel="stylesheet" href="assets/css/timelinestyle.css">
+
+    <!-- New TimeLine -->
+    <link rel="stylesheet" href="assets/css/reset.css"> <!-- CSS reset -->
+    <link rel="stylesheet" href="assets/css/newtimelinestyle.css"> <!-- Resource style -->  
+    <script src="assets/js/modernizr.js"></script> <!-- Modernizr -->   
 
     <!-- Main style sheet -->
     <link href="assets/css/style.css" rel="stylesheet">    
@@ -33,6 +38,10 @@
     <link href='https://fonts.googleapis.com/css?family=Tangerine' rel='stylesheet' type='text/css'>        
     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Prata' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Droid+Serif|Open+Sans:400,700' rel='stylesheet' type='text/css'>
+
+
+  
     
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -150,110 +159,90 @@
 
 
 
-
- <!-- Start About us -->
-  <section id="mu-project-timeline">
+  <section id="cd-timeline">
     <div class="container">
       <div class="row">
-        <div class="col-md-12">
-          <div class="mu-project-timeline-area">
-            <div class="mu-title">
-              <h2>PROJECT TIMELINE</h2>
-              <i class="fa fa-spoon"></i>              
-              <span class="mu-title-bar"></span>
-              <div class="container">
-  <ul class="timeline">
-    <li>
-      <div class="timeline-badge success"><i class="glyphicon glyphicon-heart"></i></div>
-      <div class="timeline-panel">
-        <div class="timeline-heading">
-          <h4 class="timeline-title"><b>November 2015 to December 2015</b></h4>
-          <!--<p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 11 hours ago via Twitter</small></p>-->
-        </div>
-        <div class="timeline-body">
-          <p>•  Brainstormed ideas for overall design and structure.</p>
-          <p>•  Researched similar projects to find ways to make our design an improvement on previous heart phantoms.</p>
-          <p>•  Began testing materials to make our heart replica, including PVA, PDMS, PEG, agar, and natural rubber latex.</p>
-        </div>
-      </div>
-    </li>
-    <li class="timeline-inverted">
-      <div class="timeline-badge success"><i class="glyphicon glyphicon-heart"></i></div>
-      <div class="timeline-panel">
-        <div class="timeline-heading">
-          <h4 class="timeline-title"><b>January 2016</b></h4>
-        </div>
-        <div class="timeline-body">
-          <p>•  Started prototyping and 3D-printing two-part molds of the left ventricle of a rabbit heart.</p>
-          <p>•  Chose a low-cost, biocompatible, silicone-based material to make the heart replica.</p>
-          <p>•  Began building pump system.</p>
-        </div>
-      </div>
-    </li>
-    <li>
-      <div class="timeline-badge success"><i class="glyphicon glyphicon-heart"></i></div>
-      <div class="timeline-panel">
-        <div class="timeline-heading">
-          <h4 class="timeline-title"><b>February 2016</b></h4>
-        </div>
-        <div class="timeline-body">
-          <p>•  Refined overall design and focused on assembly.</p>
-          <p>•  Initially dealt with uneven density in the walls of the heart phantom, but continued to refine/test various 3D printed molds.</p>
-          <p>•  Ultimately developed a novel design for the 3D printed molds which allows us to incorporate physical deformities in the heart phantom.</p>
-        </div>
-      </div>
-    </li>
-    <li class="timeline-inverted">
-      <div class="timeline-badge success"><i class="glyphicon glyphicon-heart"></i></div>
-        <div class="timeline-panel">
-          <div class="timeline-heading">
-          <h4 class="timeline-title"><b>March 2016</b></h4>
-        </div>
-        <div class="timeline-body">
-          <p>•  Wrote Arduino code for stepper motor driving our pump system using discrete data from a PPG graph.</p>
-          <p>•  Presented prototype and poster at Engineering Open House at UIUC.</p>
-        </div>
-      </div>
-    </li>
-    <li>
-      <div class="timeline-badge success"><i class="glyphicon glyphicon-heart"></i></div>
-      <div class="timeline-panel">
-        <div class="timeline-heading">
-          <h4 class="timeline-title"><b>April 2016</b></h4>
-        </div>
-        <div class="timeline-body">
-          <p>•  Further refined prototype by upgrading the stepper motor, reducing heart chamber size, and creating a cylindrical casing for the heart.</p>
-          <p>•  Explored more physiologically accurate heart models using the CAD files in the National Institute of Health's (NIH) Heart Library to create negatives for a full heart mold.</p>
-        </div>
-      </div>
-    </li>
-    <li class="timeline-inverted">
-      <div class="timeline-badge success"><i class="glyphicon glyphicon-heart"></i></div>
-      <div class="timeline-panel">
-        <div class="timeline-heading">
-          <h4 class="timeline-title"><b>May 2016 to June 2016</b></h4>
-        </div>
-        <div class="timeline-body">
-          <p>•  Wrote and submitted reports to various competitions in order to recieve funding to continue our device development.</p>
-        </div>
-      </div>
-    </li>
-  </ul>
-</div>
-    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+        <div class="cd-timeline-block">
+          <div class="cd-timeline-img cd-picture">
+            <img src="img/cd-icon-picture.svg" alt="Picture">
+          </div> <!-- cd-timeline-img -->
 
-            </div>
-            
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End About us -->
+          <div class="cd-timeline-content">
+            <h2>Title of section 1</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
+            <a href="#0" class="cd-read-more">Read more</a>
+            <span class="cd-date">Jan 14</span>
+          </div> <!-- cd-timeline-content -->
+        </div> <!-- cd-timeline-block -->
 
+        <div class="cd-timeline-block">
+          <div class="cd-timeline-img cd-movie">
+            <img src="img/cd-icon-movie.svg" alt="Movie">
+          </div> <!-- cd-timeline-img -->
 
+          <div class="cd-timeline-content">
+            <h2>Title of section 2</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde?</p>
+            <a href="#0" class="cd-read-more">Read more</a>
+            <span class="cd-date">Jan 18</span>
+          </div> <!-- cd-timeline-content -->
+        </div> <!-- cd-timeline-block -->
 
+        <div class="cd-timeline-block">
+          <div class="cd-timeline-img cd-picture">
+            <img src="img/cd-icon-picture.svg" alt="Picture">
+          </div> <!-- cd-timeline-img -->
 
+          <div class="cd-timeline-content">
+            <h2>Title of section 3</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, obcaecati, quisquam id molestias eaque asperiores voluptatibus cupiditate error assumenda delectus odit similique earum voluptatem doloremque dolorem ipsam quae rerum quis. Odit, itaque, deserunt corporis vero ipsum nisi eius odio natus ullam provident pariatur temporibus quia eos repellat consequuntur perferendis enim amet quae quasi repudiandae sed quod veniam dolore possimus rem voluptatum eveniet eligendi quis fugiat aliquam sunt similique aut adipisci.</p>
+            <a href="#0" class="cd-read-more">Read more</a>
+            <span class="cd-date">Jan 24</span>
+          </div> <!-- cd-timeline-content -->
+        </div> <!-- cd-timeline-block -->
+
+        <div class="cd-timeline-block">
+          <div class="cd-timeline-img cd-location">
+            <img src="img/cd-icon-location.svg" alt="Location">
+          </div> <!-- cd-timeline-img -->
+
+          <div class="cd-timeline-content">
+            <h2>Title of section 4</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
+            <a href="#0" class="cd-read-more">Read more</a>
+            <span class="cd-date">Feb 14</span>
+          </div> <!-- cd-timeline-content -->
+        </div> <!-- cd-timeline-block -->
+
+        <div class="cd-timeline-block">
+          <div class="cd-timeline-img cd-location">
+            <img src="img/cd-icon-location.svg" alt="Location">
+          </div> <!-- cd-timeline-img -->
+
+          <div class="cd-timeline-content">
+            <h2>Title of section 5</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum.</p>
+            <a href="#0" class="cd-read-more">Read more</a>
+            <span class="cd-date">Feb 18</span>
+          </div> <!-- cd-timeline-content -->
+        </div> <!-- cd-timeline-block -->
+
+        <div class="cd-timeline-block">
+          <div class="cd-timeline-img cd-movie">
+            <img src="img/cd-icon-movie.svg" alt="Movie">
+          </div> <!-- cd-timeline-img -->
+
+          <div class="cd-timeline-content">
+            <h2>Final Section</h2>
+            <p>This is the content of the last section</p>
+            <span class="cd-date">Feb 26</span>
+          </div> <!-- cd-timeline-content -->
+        </div> <!-- cd-timeline-block -->
+      </div> <!-- row -->
+     </div>   <!-- container --> 
+  </section> <!-- cd-timeline -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="assets/js/main.js"></script> <!-- Resource jQuery -->
 
 
 
