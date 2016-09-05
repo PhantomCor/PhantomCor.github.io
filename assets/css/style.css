@@ -2043,6 +2043,12 @@ RESERVATION SECTION
   width: 100%;
   text-align: center;
 }
+#mu-footer .mu-footer-area .mu-footer-info-item {
+  display: block;
+  float: left;
+  width: 100%;
+  text-align: left;
+}
 #mu-footer .mu-footer-area .mu-footer-social {
   display: inline;
   float: left;
