@@ -14,27 +14,11 @@ html * {
   box-sizing: border-box;
 }
 
-body {
-  font-size: 100%;
-  font-family: "Droid Serif", serif;
-  color: #7f8c97;
-  background-color: #e9f0f5;
-}
-
-a {
-  color: #acb7c0;
-  text-decoration: none;
-  font-family: "Open Sans", sans-serif;
-}
 
 img {
   max-width: 100%;
 }
 
-h1, h2 {
-  font-family: "Open Sans", sans-serif;
-  font-weight: bold;
-}
 
 /* -------------------------------- 
 
@@ -127,7 +111,7 @@ Main components
   border-radius: 50%;
   box-shadow: 0 0 0 4px white, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
 }
-.cd-timeline-img img {
+.cd-timeline-img span {
   display: block;
   width: 24px;
   height: 24px;
@@ -137,14 +121,27 @@ Main components
   margin-left: -12px;
   margin-top: -12px;
 }
+
+.glyphicon {
+  color: white;
+  position: absolute;
+  height: 24px;
+  width : 24px;
+  resize: both;
+
+}
+.glyphicon-heart:before {
+  content: "\e005";
+  font-size: 24px;
+}
 .cd-timeline-img.cd-picture {
-  background: #75ce66;
+  background: #c03b44;
 }
 .cd-timeline-img.cd-movie {
   background: #c03b44;
 }
 .cd-timeline-img.cd-location {
-  background: #f0ca45;
+  background: #c03b44;
 }
 @media only screen and (min-width: 1170px) {
   .cd-timeline-img {
