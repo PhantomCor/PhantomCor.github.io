@@ -404,6 +404,7 @@ img {
   float: left;
   width: 100%;
   padding: 100px 0;
+  background-color: #222;
 }
 #mu-about-us .mu-about-us-area {
   display: inline;
@@ -440,6 +441,59 @@ img {
   padding-top: 30px;
   width: 100%;
 }
+
+#mu-about-us .mu-title h2 {
+  color: #fff;
+}
+
+
+/*======================
+PROBLEM STATEMENT SECTION
+====================*/
+#mu-prob-statement {
+  display: inline;
+  float: left;
+  width: 100%;
+  padding: 100px 0;
+
+}
+#mu-prob-statement .mu-prob-statement-area {
+  display: inline;
+  float: left;
+  width: 100%;
+}
+#mu-prob-statement .mu-prob-statement-area .mu-prob-statement-left {
+  display: inline;
+  float: left;
+  margin-top: 20px;
+  padding-top: 30px;
+  width: 100%;
+}
+#mu-prob-statement .mu-prob-statement-area .mu-prob-statement-left p {
+  line-height: 24px;
+}
+#mu-prob-statement .mu-prob-statement-area .mu-prob-statement-left ul {
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+#mu-prob-statement .mu-prob-statement-area .mu-prob-statement-left ul li {
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+#mu-prob-statement .mu-prob-statement-area .mu-prob-statement-left ul li:before {
+  content: "\f24d";
+  font-family: fontAwesome;
+  margin-right: 10px;
+}
+#mu-prob-statement .mu-prob-statement-area .mu-prob-statement-right {
+  display: inline;
+  float: left;
+  margin-top: 20px;
+  padding-top: 30px;
+  width: 100%;
+}
+
+
 .mu-title {
   display: inline;
   float: left;
@@ -2405,6 +2459,10 @@ RESERVATION SECTION
   }
 
   #mu-about-us {
+    padding: 100px 0 50px;
+  }
+
+    #mu-prob-statement {
     padding: 100px 0 50px;
   }
 

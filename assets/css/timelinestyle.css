@@ -45,6 +45,10 @@ Main components
 -------------------------------- */
 
 
+#timeline {
+  margin-top: 4em;
+}
+
 #cd-timeline {
   position: relative;
   padding: 2em 0;
