@@ -403,9 +403,22 @@ img {
   display: inline;
   float: left;
   width: 100%;
-  padding: 100px 0;
   background-color: #222;
+  background-image: url("../img/quad.png");
+  background-size: cover;
+  background-attachment: fixed;
 }
+
+#mu-about-us .mu-overlay {
+  background-color: rgba(0, 0, 0, 0.8);
+  display: inline;
+  float: left;
+  padding: 70px 0 100px;
+  width: 100%;
+}
+
+
+
 #mu-about-us .mu-about-us-area {
   display: inline;
   float: left;
