@@ -1268,6 +1268,11 @@ RESERVATION SECTION
   float: left;
   width: 100%;
 }
+#mu-chef  .mu-button{
+  margin-top: 50px;
+  font-size: 20pt;
+}
+
 #mu-chef .mu-chef-area .mu-chef-content {
   display: inline;
   float: left;
@@ -1912,9 +1917,9 @@ RESERVATION SECTION
 }
 .mu-comments-area .comments .commentlist li .news-img {
   background-color: #ccc;
-  height: 90px;
+  height: 120px;
   margin-right: 20px;
-  width: 90px;
+  width: 120px;
 }
 .mu-comments-area .comments .commentlist li .media-body p {
   margin-bottom: 0px;
@@ -2095,6 +2100,15 @@ RESERVATION SECTION
 #mu-error .mu-error-area a {
   margin-top: 30px;
 }
+
+/*==================
+ TEAM SECTION
+====================*/
+#mu-team {
+  padding-bottom: 100p
+}
+
+
 
 /*==================
  FOOTER SECTION
