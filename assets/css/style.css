@@ -417,8 +417,8 @@ img {
   width: 100%;
 }
 
-#mu-about-us .mu-logo {
-  
+#mu-about-us .col-md-2 {
+  padding-top: 270px;
 }
 
 #mu-about-us .mu-about-us-area {
