@@ -77,11 +77,11 @@ jQuery(function($){
 
     jQuery('.mu-chef-nav').slick({
       dots: true,
-      arrows: false,
+      arrows: true,
       infinite: true,
       speed: 300,
       slidesToShow: 4,
-      slidesToScroll: 2,
+      slidesToScroll: 3,
       autoplay: true,
       autoplaySpeed: 2500,
       responsive: [
