@@ -44,9 +44,9 @@
 
 body {
   background-color: #ffffff;
-  font-family: "Prata", serif;
+  font-family: "Georgia", serif;
   color: #333333;
-  font-size: 15px;
+  font-size: 17px;
   overflow-x: hidden;
 }
 
@@ -425,6 +425,7 @@ img {
   display: inline;
   float: left;
   width: 100%;
+  line-height: 24px;
 }
 #mu-about-us .mu-about-us-area .mu-about-us-left {
   display: inline;
@@ -1327,7 +1328,7 @@ RESERVATION SECTION
   margin-bottom: 5px;
 }
 #mu-chef .mu-chef-area .mu-chef-content .mu-chef-nav .slick-list li .mu-single-chef .mu-single-chef-info span {
-  font-size: 14px;
+  font-size: 16px;
   letter-spacing: 0.5px;
 }
 #mu-chef .mu-chef-area .mu-chef-content .mu-chef-nav .slick-list li .mu-single-chef .mu-single-chef-social {

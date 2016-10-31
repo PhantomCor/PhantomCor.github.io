@@ -79,7 +79,7 @@ jQuery(function($){
       dots: true,
       arrows: true,
       infinite: true,
-      speed: 300,
+      speed: 600,
       slidesToShow: 4,
       slidesToScroll: 3,
       autoplay: true,
