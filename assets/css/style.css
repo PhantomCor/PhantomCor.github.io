@@ -1573,7 +1573,7 @@ RESERVATION SECTION
 ====================*/
 #mu-blog-banner {
   background-attachment: fixed;
-  background-image: url("assets/img/blog-banner.jpg");
+  background-image: url("../../images/team_photo.png");
   background-position: center center;
   background-size: cover;
   display: inline;
@@ -1594,7 +1594,7 @@ RESERVATION SECTION
 #mu-blog-banner .mu-blog-banner-area {
   display: inline;
   float: left;
-  min-height: 350px;
+  min-height: 550px;
   padding: 12% 0;
   position: relative;
   text-align: center;
