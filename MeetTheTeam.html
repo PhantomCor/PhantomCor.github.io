@@ -76,7 +76,7 @@
             <li><a href="index.html#mu-about-us">ABOUT US</a></li>
             <li><a href="index.html#timeline">PROJECT TIMELINE</a></li>                       
             <li><a href="MeetTheTeam.html">OUR TEAM</a></li>  
-            <li><a href="index.html#contact" data-toggle="modal">CONTACT</a></li>
+            <li><a href="#contact" data-toggle="modal">CONTACT</a></li>
           </ul>                            
         </div><!--/.nav-collapse -->       
       </div>          
@@ -291,7 +291,43 @@
     </div>
     </div>
   </section>
-  
+
+  <div class="modal fade" id="contact" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <form class="form-horizontal" role="form" action="https://formspree.io/PhantomCor.uiuc@gmail.com" method="POST">
+            <div class="modal-header">
+              <h4>Contact<h4>
+            </div>
+            <div class="modal-body">
+              <div class="form-group">
+                <label for="contact-name" class="col-sm-2 control-label">Name</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" id="contact-name" placeholder="First & Last Name" name="name">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="contact-email" class="col-sm-2 control-label">Email</label>
+                <div class="col-sm-10">
+                  <input type="email" class="form-control" id="contact-email" placeholder="example@domain.com" name="contactemail">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="contact-message" class="col-sm-2 control-label">Message</label>
+                <div class="col-sm-10">
+                  <textarea class="form-control" rows="4" name="message"></textarea>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <a class="btn btn-default" data-dismiss="modal">Close</a>
+              <button type="submit" class="btn btn-primary" value="Send">Send</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
   <!-- Start Footer -->
   <footer id="mu-footer">
     <div class="container">
