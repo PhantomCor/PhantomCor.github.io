@@ -1426,11 +1426,11 @@ RESERVATION SECTION
 }
 .mu-news-single .mu-news-img {
   display: inline;
-  float: left;
-  width: 100%;
+  float: right;
+  width: 80%;
 }
 .mu-news-single .mu-news-img img {
-  width: 100%;
+  width: 80%;
 }
 .mu-news-single .mu-news-single-content {
   display: inline;
@@ -1594,8 +1594,8 @@ RESERVATION SECTION
 #mu-blog-banner .mu-blog-banner-area {
   display: inline;
   float: left;
-  min-height: 550px;
-  padding: 12% 0;
+  min-height: 600px;
+  padding: 22% 0;
   position: relative;
   text-align: center;
   width: 100%;
